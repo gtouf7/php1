@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
