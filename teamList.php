@@ -22,7 +22,8 @@
            // $pQuery = 'SELECT * FROM players WHERE player.teamID = teams.id';
             //$players = mysqli_query($connect, $pQuery);
         ?>
-        <?php echo '<table class="table">
+        <?php echo '<a class="btn btn-primary" href="addT.php">Add a Team</a>
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th scope="col">#</th>
@@ -30,6 +31,7 @@
                                 <th scope="col">Country</th>
                                 <th scope="col">Colors</th>
                                 <th scope="col">Founded in</th>
+                                <th></th>
                                 <th></th>
                             </tr>
                         </thead>';

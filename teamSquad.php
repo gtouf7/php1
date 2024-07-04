@@ -9,6 +9,7 @@
     </head>
     <body>
         <?php include('reusables/header.php');
+        include('reusables/connection.php');
             echo '<ul class="list-group">
                     <li class="list-group-item active" aria-current="true">' . $team['teamName'] . '</li>';
             foreach($players as $player) {
